@@ -5,22 +5,16 @@
     box-sizing: border-box;
     font-family: 'Nunito';
 }
-video{
-    
-    position: fixed;
-    width: auto;
-   
-   
-    
-    
-}
+
 
 
 body{
+    
     margin: 0%;
-    background: linear-gradient(top,transparent,rgba(12, 12, 12, 0.5));
+    
+    background-image: url(img2/mapamundi.png);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: absolute;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -30,7 +24,7 @@ body{
 
 .contenedor{
     max-width: 1000px;
-    background-color: rgba(5, 5, 5, 0.171);
+    background-color: rgba(223, 175, 18, 0.171);
     border-radius: 30px;
     padding: 50px;
     color: #fff;
